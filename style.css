@@ -1,0 +1,57 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+  gap: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+/* Header */
+.page-header {
+  background-color: rgb(238, 229, 229);
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-menu {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.item-menu {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.button-blue {
+  background: #0061FF;
+  color: white;
+  line-height: 28px;
+  font-size: 16px;
+  padding: 0 10px;
+}
