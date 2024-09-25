@@ -7,6 +7,7 @@
 
 html {
   font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
 }
 
 a {
@@ -54,4 +55,59 @@ img {
   line-height: 28px;
   font-size: 16px;
   padding: 0 10px;
+}
+
+/* Hero */
+.hero {
+  height: 500px;
+  background-color: #B4D0E7;
+}
+
+.container-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-100 {
+  font-size: 40px;
+  margin-top: 24px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-2 {
+  height: 250px;
+  width: 700px;
+}
+
+.container-2 .row {
+  flex-wrap: nowrap;
+}
+
+.col-40 {
+  padding-top: 20px;
+  align-content: center;
+  width: 300px
+}
+
+.col-60 {
+  width: 400px;
+  background-image: url(./Img/jumbo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+h3{
+  font-size: 40px;
 }
