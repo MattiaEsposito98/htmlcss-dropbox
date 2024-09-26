@@ -30,10 +30,16 @@ img {
   max-width: 100%;
 }
 
+u, .fa-check {
+  color: blue;
+}
+
+
 
 /* LAYOUT */
 .container-fluid {
   margin: 0 auto;
+  width: 100%;
 }
 
 .container-sm {
@@ -256,7 +262,7 @@ input {
   width: calc(100% / 3);
 }
 
-/* 6° Layout */
+/* 5° Layout */
 .hero-white .container-sm .row .col-8 p {
   color: blue;
 }
@@ -267,11 +273,21 @@ input {
   gap: 30px;
 }
 
-.position_col-8 h1{
-text-align: left; 
+
+/* 6° Layout */
+/* .row_col-60-30{
+  display: flex;
+  flex-wrap: wrap;
 }
 
+.col-30{
+  width: calc
+  border: 1px solid blue;
+}
 
+.col-60 {
+  border: 1px solid red;
+} */
 
 
 /* COMPONENTS */
