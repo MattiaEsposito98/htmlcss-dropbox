@@ -67,6 +67,7 @@ img {
 
 .col-4 {
   width: calc(4 * 100% / 12);
+  
 }
 
 .col-8 {
@@ -202,6 +203,17 @@ input{
   margin-bottom: 20px;
 }
 
+.card__body-row{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 12px;
+  }
+
+  
+  .card__body-row .btn{
+    margin-right: 12px;
+    padding: 0px 40px;
+  }
 
 /* COMPONENTS */
 .btn {
